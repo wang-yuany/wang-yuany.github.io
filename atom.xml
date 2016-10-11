@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-10-11T12:55:29.696Z</updated>
+  <updated>2016-10-11T13:09:07.228Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/10/11/901%20how%20to%20read/"/>
     <id>http://yoursite.com/2016/10/11/901 how to read/</id>
     <published>2016-10-10T16:21:29.000Z</published>
-    <updated>2016-10-11T12:55:29.696Z</updated>
+    <updated>2016-10-11T13:09:07.228Z</updated>
     
     <content type="html"><![CDATA[<p>个人总结，作用在于梳理个人思维系统，形成有意识有规律的行为模式，然后遇到新的知识就可以从容往里套。说到底，做好一件事的关键“但手熟尔”，不过手熟的方法不是漫无目的的尝试，而是一点技巧及长时间的刻意练习。</p>
 <p>关于读书，主要需要回答以下两个问题：</p>
@@ -125,7 +125,7 @@
 <li><a href="https://book.douban.com/subject/3644095/" target="_blank" rel="external">《越读者》</a> （前一本书的“精简版”）</li>
 <li><a href="https://book.douban.com/subject/20493042/" target="_blank" rel="external">《这样读书就够了》</a> ——赵周</li>
 </ul>
-<p>如果喜欢我的文章，请关注我的公众号。</p>
+<p>如果喜欢我的文章，请关注我的公众号。<br><img src="http://bdbea3.duapp.com/pcs_download.php?id=3172&amp;link=%2Fapps%2Fhgf_blog%2F%E5%85%AC%E4%BC%97%E5%8F%B7logo.jpg" alt="公众号"></p>
 ]]></content>
     
     <summary type="html">
@@ -137,7 +137,9 @@
     </summary>
     
     
-      <category term="小结，阅读" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%BB%93%EF%BC%8C%E9%98%85%E8%AF%BB/"/>
+      <category term="小结" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%BB%93/"/>
+    
+      <category term="阅读" scheme="http://yoursite.com/tags/%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
