@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-10-12T16:36:10.901Z</updated>
+  <updated>2016-10-13T00:28:47.011Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,13 +16,14 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>用Github与Hexo搭建免费博客</title>
+    <title>008-用Github与Hexo搭建免费博客</title>
     <link href="http://yoursite.com/2016/10/12/008-Github&amp;Hexo%20blog/"/>
     <id>http://yoursite.com/2016/10/12/008-Github&amp;Hexo blog/</id>
     <published>2016-10-12T15:24:00.000Z</published>
-    <updated>2016-10-12T16:36:10.901Z</updated>
+    <updated>2016-10-13T00:28:47.011Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>在改用Markdown语言写作之后，Github顺势就成了我的文档保存柜，其好处很明显，免费的存储空间以及文档改动的存档功能，特别是后一条，我通常写出一篇初稿后上传一遍，过一天之后再修改再上传，如果以后有了想法，不仅能看到最新的修改版，还能看到文档一步步的修改过程，我觉得挺好。后来再想，反正也要用Github保存，如果保存的文档能顺势再进化一下，变成博客，让别人也能查看，那就太幸福了。没成想还真有搭建免费静态博客的方法，于是就有了这篇教程。其实网上的教程很多，我写下来的目的也主要是为了留备以后自己查用，因此此文有大量摘用，且只针对windows平台和Hexo 3.x。</p>
+    <content type="html"><![CDATA[<p>这是一篇纯技术文，非战斗人员请撤离；这篇涉及到电脑操作，请在电脑陪同下阅读。</p>
+<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>在改用Markdown语言写作之后，Github顺势就成了我的文档保存柜，其好处很明显，免费的存储空间以及文档改动的存档功能，特别是后一条，我通常写出一篇初稿后上传一遍，过一天之后再修改再上传，如果以后有了想法，不仅能看到最新的修改版，还能看到文档一步步的修改过程，我觉得挺好。后来再想，反正也要用Github保存，如果保存的文档能顺势再进化一下，变成博客，让别人也能查看，那就太幸福了。没成想还真有搭建免费静态博客的方法，于是就有了这篇教程。其实网上的教程很多，我写下来的目的也主要是为了留备以后自己查用，因此此文有大量摘用，且只针对windows平台和Hexo 3.x。</p>
 <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>了解Hexo</p>
 <blockquote>
 <p>A fast, simple &amp; powerful blog framework</p>
@@ -84,7 +85,7 @@ hexo d # deploy, 同步更新至Github
   type: git
   repository: git@github.com:wang_yuany/wang_yuany.github.com.git
   branch: master
-</code></pre><p>运行Git Shell切换到如E:\Doc\GitHub\hexo路径下，执行下列命令，即可讲数据同步到Github</p>
+</code></pre><p>运行Git Shell切换到如E:\Doc\GitHub\hexo路径下，执行下列命令，即可将数据同步到Github</p>
 <pre><code>hexo d -g
 </code></pre><p>最后访问主页观察效果，首次创建耐心等待10分钟左右审核，之后即可访问静态主页如 <a href="http://wang_yuany.github.io" target="_blank" rel="external">http://wang_yuany.github.io</a></p>
 <h2 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h2><p>Hexo发布的.md源文件在 ./source/_posts 下面，我一般倾向于写完之后加一个文件头，用于生成网页时引用。也可以输入下列命令生成指定名称的文档：</p>
@@ -100,11 +101,13 @@ hexo d # deploy, 同步更新至Github
 <p><a href="https://wsgzao.github.io/post/hexo-guide/" target="_blank" rel="external">使用GitHub和Hexo搭建免费静态Blog</a></p>
 <p><a href="http://qiutc.me/post/%E4%BD%BF%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2.html" target="_blank" rel="external">使用hexo+github搭建静态博客</a></p>
 <p><a href="http://jianghao.wang/2015/hexo-github/" target="_blank" rel="external">搭建 Hexo + Github 博客</a></p>
+<p>如果喜欢我的文章，请关注我的公众号。<br><img src="http://bdbea3.duapp.com/pcs_download.php?id=3172&amp;link=%2Fapps%2Fhgf_blog%2F%E5%85%AC%E4%BC%97%E5%8F%B7logo.jpg" alt="公众号"></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h2&gt;&lt;p&gt;在改用Markdown语言写作之后，Github顺势就成了我的文档保存柜，其好处很明显，免费的存储空间以及文档改动的存档功能，特别是后一条，
+      &lt;p&gt;这是一篇纯技术文，非战斗人员请撤离；这篇涉及到电脑操作，请在电脑陪同下阅读。&lt;/p&gt;
+&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h2&gt;&lt;p&gt;在改用Markdown语言写作之后，Github
     
     </summary>
     
